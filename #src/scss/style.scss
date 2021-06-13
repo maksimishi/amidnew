@@ -1,0 +1,214 @@
+// @mixin font($font_name, $file_name, $weight, $style) {
+// 	@font-face {
+// 		font-family: $font_name;
+// 		font-display: swap;
+// 		src: url("../fonts/#{$file_name}.woff") format("woff"), url("../fonts/#{$file_name}.woff2") format("woff2");
+// 		font-weight: #{$weight};
+// 		font-style: #{$style};
+// 	}
+// }	
+@import "fonts";
+@import "./normalize.scss";
+
+*,
+::before, ::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+	width: 1440px;
+	margin: 0 auto;
+	height: 5396px;
+}
+.header{
+	width: 1094px;
+	height: 57px;
+	margin-top: 47px;
+	margin-left: 182px;
+	display: flex;
+}
+
+.logo{
+	width: 118px;
+	height: 42px;
+	
+}
+
+.navigation {
+	display: flex;
+	margin-left: 135px;
+	margin-top: 19px;
+	margin-bottom: 20px;
+	width: 100%;
+	
+}
+
+.navigation__item{
+	width: 136px;
+	color: black;
+	text-decoration: none;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+
+}
+
+.navigation__item:hover {
+	text-decoration: underline;
+	
+}
+
+.item__activ {
+	font-weight: 500;
+}
+
+
+.item__activ::before {
+	content: '';
+	display: block;
+	height: 2px;
+	background: tomato;
+	width: 27px;
+	position: absolute;
+	margin-top: 19px;
+	margin-left: 54px;
+}
+
+.login {
+
+}
+
+.login__button{
+width: 127px;
+height: 57px;
+background: #124F48;
+border-radius: 31.5px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+
+
+
+
+.reqtangle1{
+	width: 1319px;
+	height: 724px;
+	background: #E9FBF9;
+	border-radius: 30px;
+	margin: 0 auto;
+	margin-top: 78px;
+	padding-left: 121px;
+	padding-top: 70px;
+}
+
+.group4{
+	
+	height: 38px;
+	width: 117px;
+	text-align: center;
+	background: #FFFFFF;
+	border: 1px solid #F2FAF9;
+	box-sizing: border-box;
+	border-radius: 4px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 30px;
+	color: #FF6107;
+	/* identical to box height, or 187% */
+	letter-spacing: 0.1em;
+}
+
+.trybisness{
+	width: 570px;
+	height: 251px;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: 800;
+	font-size: 64px;
+	line-height: 80px;
+	/* or 125% */
+	color: #021D1A;
+}
+
+.text2{
+	width: 428px;
+	height: 90px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+	/* or 167% */
+	color: #464646;
+}
+
+
+.start{
+	width: 180px;
+	height: 57px;
+	background: #FF823B;
+	border-radius: 31.5px;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	color: #FFFFFF;
+	border: 0px;
+	/* identical to box height */
+	letter-spacing: 0.05em;
+}
+.buttons{
+	display: flex;
+	margin-top: 51px;
+	margin-left: 20px;
+}
+
+.play {
+	margin: -13px -8px;
+
+}
+
+.demo__video {
+margin-top: 19px;
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+color: #FF823B;
+letter-spacing: 0.05em;
+}
+
+.video__button{
+	display: flex;
+	width: 300px;
+	height: 60px;
+	padding-left: 55px;
+	
+	
+}
+
+.woman{
+	width: 881px;
+	height: 694px;
+	margin-top: -617px;
+	margin-left: 366px;
+}
